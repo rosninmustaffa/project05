@@ -27,7 +27,7 @@
     $stmt->execute();
     $result = $stmt->get_result();
 
-  // Validate credentials
+    // Validate credentials
     if ($result->num_rows > 0) {
         header("Location: http://localhost:8080/success.php");
     }
