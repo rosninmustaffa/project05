@@ -9,7 +9,6 @@ project05/
 ├── frontend/
 │   ├── Dockerfile
 │   ├── index.php
-│   ├── script.js
 │   └── styles.css
 ├── db/
 │   ├── Dockerfile
