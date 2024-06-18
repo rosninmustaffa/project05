@@ -1,5 +1,7 @@
  <?php
-    //login.php
+    // login.php
+
+    // Get environment variables
     $servername = getenv('DB_HOST');
     $username = getenv('DB_USER');
     $password = getenv('DB_PASSWORD');
