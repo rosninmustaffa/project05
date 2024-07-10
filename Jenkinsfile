@@ -1,7 +1,5 @@
 pipeline {
-  agent {
-    label "dck-agt-jenkins"
-  }
+  agent any
   stages {
     stage ('Run Docker Compose') {
       steps{
