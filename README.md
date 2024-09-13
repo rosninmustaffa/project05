@@ -17,3 +17,11 @@ Simple docker compose project written in PHP <br/>
 ├── *phpmyadmin/*<br/>
 │   └── Dockerfile<br/>
 ├── docker-compose.yml<br/>
+
+> [!TIP]
+**Usage**:
+```
+$ git clone https://github.com/stefanprodan/dockprom 
+$ cd dockprom
+$ docker-compose up -d
+```
