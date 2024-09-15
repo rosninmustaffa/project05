@@ -25,3 +25,7 @@ $ git clone https://github.com/stefanprodan/dockprom
 $ cd dockprom
 $ docker-compose up -d
 ```
+
+**Containers:** <br/>
+Login page `http://<host-ip>` <br/>
+phpMyAdmin (database management) `http://<host-ip>:8082` <br/>
