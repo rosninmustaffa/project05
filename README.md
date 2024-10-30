@@ -21,6 +21,12 @@ Simple docker compose project written in PHP <br/>
 > [!TIP]
 **Usage**:
 ```
+$ git clone https://github.com/rosninmustaffa/project06.git 
+$ cd project06
+$ docker-compose up -d
+```
+To have Grafana runnning:
+```
 $ git clone https://github.com/stefanprodan/dockprom 
 $ cd dockprom
 $ docker-compose up -d
