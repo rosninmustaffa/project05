@@ -21,7 +21,7 @@ Simple docker compose project written in PHP <br/>
 > [!TIP]
 **Usage**:
 ```
-$ git clone https://github.com/rosninmustaffa/project06.git 
+$ git clone https://github.com/rosninmustaffa/project05.git 
 $ cd project06
 $ docker-compose up -d
 ```
