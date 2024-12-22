@@ -6,7 +6,7 @@ pipeline {
     stage('Verify Tooling') {
       steps {
         echo 'verify tooling stage'
-        cmd /c docker -v
+        cmd /c 'docker -v'
       }
     }
     stage ('Run Docker Compose') {
