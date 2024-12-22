@@ -3,13 +3,10 @@ pipeline {
     label 'win-agent'
   }
   stages {
-    stage("verify tooling") {
+    stage('Verify Tooling') {
       steps {
-        sh '''
-          docker version
-          docker info
-          docker compose version 
-        '''
+        echo 'verify tooling stage'
+        cmd /c docker -v
       }
     }
     stage ('Run Docker Compose') {
