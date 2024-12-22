@@ -1,5 +1,7 @@
 pipeline {
-  agent any
+  agent {
+    label "win-agent"
+  }
   stages {
     stage ('Run Docker Compose') {
       steps{
