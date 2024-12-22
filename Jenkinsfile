@@ -2,9 +2,6 @@ pipeline {
   agent {
     label "win-agent"
   }
-  tools {
-    git 'Default Git'
-  }
   stages {
     stage('Checkout') {
             steps {
