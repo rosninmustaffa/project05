@@ -6,14 +6,14 @@ pipeline {
     stage('Verify Tooling') {
       steps {
         echo 'verify tooling stage'
-        sh """
-          docker -v
-        """
+        bat 'docker -v'
+        bat 'docker info'
+        bat 'docker-compose config'
       }
     }
     stage ('Run Docker Compose') {
       steps{
-        sh 'sudo docker-compose up -d'
+        bat 'sudo docker-compose up -d'
       }
     }
   }
