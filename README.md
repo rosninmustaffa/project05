@@ -22,8 +22,7 @@ This project is a sample CI/CD project using Github as Version Control reposoito
 **Pre-requisite**
 1. Java 11, Java 17, or Java 21 (for Jenkins installation).
 2. Jenkins (This project has only been tested for non-docker installation). I am using ver 2.479.2 on Windows 11. 
-3. SSH key pair.
-4. Docker desktop.
+3. Docker desktop.
 
 **Steps:** 
 For this example I am using Windows 11 for my operating system.
