@@ -64,7 +64,7 @@ For this example I am using Windows 11 for my operating system.
 **Usage without Jenkins pipeline**:
 ```
 $ git clone https://github.com/rosninmustaffa/project05.git 
-$ cd project06
+$ cd project05
 $ docker-compose up -d
 ```
 To have Grafana runnning:
